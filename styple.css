@@ -743,6 +743,7 @@ nav ul li:hover::after {
     display: flex;
     gap: 200px;
     padding: 50px;
+    overflow: hidden;
 }
 
 #sec-7-right-site {
@@ -916,6 +917,7 @@ nav ul li:hover::after {
     background-color: #f0f0f5;
     margin-top: 120px;
     position: relative;
+    overflow: hidden;
 }
 
 #event-section img {
@@ -1141,6 +1143,7 @@ nav ul li:hover::after {
     align-items: center;
     justify-content: center;
     gap: 90px;
+    overflow: hidden;
 }
 #left-site{
     width: 550px;
@@ -1257,6 +1260,7 @@ footer{
     background-color: #171a21;
     text-align:center ;
     color: #fff;
+    overflow: hidden;
 }
 footer h1{
      padding-top: 30px;
@@ -1334,9 +1338,5 @@ color: #9b9695;
     margin-top: -60px;
     font-family: arial;
     word-spacing: 5px;
-    transform: scale();
-    -webkit-transform: scale();
-    -moz-transform: scale();
-    -ms-transform: scale();
-    -o-transform: scale();
+    overflow: hidden;
 }
